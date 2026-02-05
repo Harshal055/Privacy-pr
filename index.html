@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +34,7 @@
             color: #7f8c8d;
             margin-bottom: 30px;
             font-size: 14px;
+            font-style: italic;
         }
         h2 {
             color: #34495e;
@@ -43,6 +43,12 @@
             font-size: 20px;
             border-bottom: 2px solid #3498db;
             padding-bottom: 5px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
         }
         p {
             margin-bottom: 15px;
@@ -61,118 +67,90 @@
             border-radius: 8px;
             margin-top: 20px;
         }
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
         a {
             color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: January 30, 2026</p>
+        <p class="last-updated">Last Updated: February 3, 2026</p>
         
-        <p>This Privacy Policy describes how Quiz Application ("we", "us", or "our") collects, uses, and shares information about you when you use our mobile application ("App").</p>
+        <p>This Privacy Policy describes how <strong>Quiz Application</strong> ("we", "us", or "our") collects, uses, and shares information about you when you use our mobile application ("App"). This service is provided by Harshalll and is intended for use "AS IS".</p>
 
         <h2>1. Information We Collect</h2>
-        <p>We collect the following types of information:</p>
+        <p>We collect the following types of information to provide and improve our services:</p>
         <ul>
             <li><strong>Account Information:</strong> When you create an account, we collect your email address and password (encrypted) for authentication purposes.</li>
+            <li><strong>Media and Audio:</strong> The App requests access to your device's Camera and Microphone to enable specific quiz features (e.g., taking photos or recording answers).</li>
             <li><strong>Quiz Data:</strong> We store your quiz progress, scores, and history to provide you with a personalized experience.</li>
-            <li><strong>Device Information:</strong> We may collect device identifiers for analytics and advertising purposes.</li>
+            <li><strong>Device Information & Identifiers:</strong> We use third-party services that may collect information used to identify your device (e.g., Device ID, Advertising ID, IP address).</li>
         </ul>
 
         <h2>2. How We Use Your Information</h2>
         <p>We use the information we collect to:</p>
         <ul>
             <li>Provide, maintain, and improve our App</li>
-            <li>Create and manage your account</li>
+            <li>Create and manage your user account</li>
             <li>Track your quiz progress and display results</li>
+            <li>Enable camera and microphone functionality where required by the quiz</li>
             <li>Send you notifications related to your account or quiz activity</li>
             <li>Display personalized advertisements through Google AdMob</li>
-            <li>Analyze usage patterns to improve user experience</li>
         </ul>
 
         <h2>3. Third-Party Services</h2>
-        <p>Our App uses the following third-party services that may collect information:</p>
+        <p>Our App uses third-party services that may collect information used to identify you. Below are the links to the privacy policies of the third-party service providers used by the App:</p>
         <ul>
-            <li><strong>Firebase (Google):</strong> For authentication, database, and analytics. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
-            <li><strong>Google AdMob:</strong> For displaying advertisements. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            <li><strong>Google Play Services:</strong> <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+            <li><strong>Google Analytics for Firebase:</strong> <a href="https://firebase.google.com/policies/analytics" target="_blank">Privacy Policy</a></li>
+            <li><strong>Firebase Crashlytics:</strong> <a href="https://firebase.google.com/support/privacy/" target="_blank">Privacy Policy</a></li>
+            <li><strong>Google AdMob:</strong> <a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">Privacy Policy</a></li>
         </ul>
 
-        <h2>4. Advertising</h2>
-        <p>We use Google AdMob to display advertisements in our App. AdMob may use cookies and similar technologies to collect information for advertising purposes. You can opt out of personalized advertising by adjusting your device settings or visiting <a href="https://www.google.com/settings/ads" target="_blank">Google Ads Settings</a>.</p>
+        <h2>4. Account Deletion (Right to Delete)</h2>
+        <div class="warning-box">
+            <p><strong>Your Rights:</strong> You have the right to request the deletion of your account and all associated data at any time.</p>
+        </div>
+        <p>Since the App does not currently offer an automated in-app deletion button, please follow these steps to request account deletion:</p>
+        <ol style="margin-left: 20px; margin-bottom: 15px;">
+            <li>Send an email to <strong>harshalll.contact@gmail.com</strong>.</li>
+            <li>Use the Subject Line: <strong>Request Account Deletion - Quiz App</strong>.</li>
+            <li>Include your registered email address in the body of the email.</li>
+        </ol>
+        <p>We will verify your identity and delete your account and all associated data within <strong>30 days</strong> of your request.</p>
 
-        <h2>5. Data Security</h2>
-        <p>We implement appropriate security measures to protect your personal information. Your password is encrypted and stored securely using Firebase Authentication. However, no method of transmission over the internet is 100% secure.</p>
+        <h2>5. Advertising</h2>
+        <p>We use Google AdMob to display advertisements. AdMob may use cookies and similar technologies to collect information for advertising purposes. You can opt out of personalized advertising by adjusting your device settings or visiting <a href="https://www.google.com/settings/ads" target="_blank">Google Ads Settings</a>.</p>
 
-        <h2>6. Children's Privacy</h2>
-        <p>Our App is designed for general audiences and is not specifically targeted at children under 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can delete it.</p>
+        <h2>6. Data Security</h2>
+        <p>We implement appropriate security measures to protect your personal information. Your password is encrypted and stored securely using Firebase Authentication. However, please remember that no method of transmission over the internet or method of electronic storage is 100% secure.</p>
 
-        <h2>7. Data Retention</h2>
-        <p>We retain your personal information for as long as your account is active or as needed to provide you services. You can request deletion of your account and associated data at any time by contacting us.</p>
+        <h2>7. Children's Privacy</h2>
+        <p>Our App is not specifically targeted at children under 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take necessary actions to delete the information.</p>
 
-        <h2>8. Your Rights</h2>
-        <p>You have the right to:</p>
-        <ul>
-            <li>Access your personal data</li>
-            <li>Correct inaccurate data</li>
-            <li>Delete your account and data</li>
-            <li>Opt out of personalized advertising</li>
-        </ul>
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this document.</p>
 
-        <h2>9. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
-
-        <h2>10. Contact Us</h2>
+        <h2>9. Contact Us</h2>
         <div class="contact-info">
-            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-            <p><strong>Email:</strong> harshalll.contact@gmail.com</p>
+            <p>If you have any questions or suggestions about this Privacy Policy, please contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:harshalll.contact@gmail.com">harshalll.contact@gmail.com</a></p>
             <p><strong>App Name:</strong> Quiz Application</p>
             <p><strong>Developer:</strong> Harshalll</p>
         </div>
     </div>
-    <div>
-    <p># Privacy Policy for Quiz Application
-
-**Effective Date:** 2026-02-03
-
-## 1. Introduction
-This privacy policy applies to the Quiz Application app (hereby referred to as "Application") created by [Your Developer Name] (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
-
-## 2. Information Collection and Use
-The Application collects information when you download and use it. This information may include:
-
-*   **Personal Information:** When you create an account, we collect your Email Address and Password to secure your account.
-*   **Media and Audio:** The app requests access to your Camera and Microphone to enable quiz features such as taking photos or recording answers.
-*   **Usage Data:** We use third-party services like Firebase and Google AdMob which may collect information used to identify you (e.g., Device ID, Advertising ID, IP address).
-
-### Third Party Access
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
-
-The app does use third-party services that may collect information used to identify you.
-Link to privacy policy of third-party service providers used by the app:
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-*   [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
-
-## 3. Account Deletion Data
-**Right to Delete:** You have the right to request that we delete your account and all associated data.
-**How to Request Deletion:**
-Since the app does not currently offer an automated in-app deletion button, please contact us via email to request account deletion:
-**Email:** harshalll@example.com (Replace with your actual email)
-**Subject:** Request Account Deletion - Quiz App
-**Content:** Please include your registered email address. We will verify your identity and delete your account and all associated data within 30 days.
-
-## 4. Children’s Privacy
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
-
-## 5. Contact Us
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at [Your Contact Information].
-</p>
-
-</div>
-    
-    
 </body>
 </html>
